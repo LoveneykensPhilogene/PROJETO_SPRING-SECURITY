@@ -1,0 +1,4 @@
+#evitar a exceção de referência circular do console de inicialização do projeto
+spring:
+  main:
+    allow-circular-references: true
